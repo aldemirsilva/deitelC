@@ -3,8 +3,8 @@ um caractere do teclado e teste-o com cada uma das fun-
 ções na biblioteca de tratamento de caractere. O progra-
 ma deverá imprimir o valor retornado por cada função. */
 
+#include <ctype.h>
 #include <stdio.h>
-#include <string.h>
 
 int main(int argc, char *argv[]) {
 char caracter;
