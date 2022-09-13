@@ -27,7 +27,6 @@ int main(void) {
     char *s = calloc(sizeof(char), 100);
     scanf("%[^\n]%*c", s);
     printf("String original: %s\n", s);
-    int tam = sizeof(s) / sizeof(s[0]);
     imprimeStringMaiuscula(s);
     imprimeStringMinuscula(s);
     free(s);
