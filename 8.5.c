@@ -7,7 +7,8 @@ ma deverá imprimir o valor retornado por cada função. */
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
-char caracter;
+    char caracter;
+    
     scanf("%c", &caracter);
     if (isdigit(caracter)) printf("É dígito.\n");
     else ("Não é dígito.\n");
