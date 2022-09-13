@@ -6,7 +6,6 @@ maiúsculas e minúsculas. */
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
-// #include <string.h>
 
 void imprimeStringMaiuscula(char s[]) {
     int i = 0;
